@@ -1,0 +1,1200 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Où partir vivre avec ton chien ? Impôts, visa, coût de la vie et règles d'import du chien pour 199 pays, au départ de la France.">
+<meta property="og:title" content="Toutou en vadrouille">
+<meta property="og:description" content="Où partir vivre avec ton chien ? Impôts, visa, coût de la vie et règles d'import du chien pour 199 pays, au départ de la France.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f6f1fb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cpath d='M36 34C18 30 8 54 15 76c4 9 14 7 17-4 3-12 5-24 8-32z' fill='%23b9733b'/%3E%3Cpath d='M84 34c18-4 28 20 21 42-4 9-14 7-17-4-3-12-5-24-8-32z' fill='%23b9733b'/%3E%3Cellipse cx='60' cy='62' rx='34' ry='33' fill='%23eeaa5c'/%3E%3Cellipse cx='60' cy='78' rx='19' ry='14' fill='%23fff3e3'/%3E%3Ccircle cx='47' cy='56' r='5' fill='%232f2540'/%3E%3Ccircle cx='73' cy='56' r='5' fill='%232f2540'/%3E%3Cellipse cx='60' cy='70' rx='7' ry='5' fill='%232f2540'/%3E%3C/svg%3E">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Toutou en vadrouille</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap">
+</head>
+<body>
+<style>
+/* Layout : carnet de voyage d'un toutou — carte arrondie à gauche, médaille de collier « Mon chien » puis fiche pays à droite ; une colonne sur téléphone. */
+:root {
+  --bg: #f6f1fb;
+  --surface: #ffffff;
+  --surface-2: #faf6ff;
+  --ink: #2f2540;
+  --muted: #74688a;
+  --line: #e7dcf3;
+  --ocean: #d7ecf8;
+  --land-empty: #ece4d8;
+  --accent: #f0727a;
+  --accent-ink: #ffffff;
+  --accent-soft: #fde7e8;
+  --tag: #ffd36e;
+  --tag-ink: #45301a;
+  --fur: #eeaa5c;
+  --fur-dark: #b9733b;
+  --muzzle: #fff3e3;
+  --tongue: #f2879a;
+  --r1: #4fbf98;
+  --r2: #a5d681;
+  --r3: #f6d46e;
+  --r4: #f5a167;
+  --r5: #ea6f7d;
+  --ban: #9c3d66;
+  --warn-bg: #fff3d6;
+  --warn-ink: #7a5208;
+  --danger-bg: #ffe4e8;
+  --danger-ink: #8e2b4a;
+  --ok-bg: #ddf5ea;
+  --ok-ink: #1d6b52;
+  --shadow: 0 2px 0 rgba(47,37,64,.05), 0 10px 30px rgba(120,90,160,.12);
+  --paw-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='%239a86b8' fill-opacity='.08'%3E%3Cg transform='translate(14 18) rotate(-18 16 16) scale(.5)'%3E%3Cellipse cx='16' cy='26' rx='6' ry='8'/%3E%3Cellipse cx='26' cy='16' rx='6' ry='8'/%3E%3Cellipse cx='38' cy='16' rx='6' ry='8'/%3E%3Cellipse cx='48' cy='26' rx='6' ry='8'/%3E%3Cellipse cx='32' cy='42' rx='14' ry='12'/%3E%3C/g%3E%3Cg transform='translate(70 68) rotate(22 16 16) scale(.5)'%3E%3Cellipse cx='16' cy='26' rx='6' ry='8'/%3E%3Cellipse cx='26' cy='16' rx='6' ry='8'/%3E%3Cellipse cx='38' cy='16' rx='6' ry='8'/%3E%3Cellipse cx='48' cy='26' rx='6' ry='8'/%3E%3Cellipse cx='32' cy='42' rx='14' ry='12'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  --paw-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cellipse cx='16' cy='26' rx='6' ry='8'/%3E%3Cellipse cx='26' cy='16' rx='6' ry='8'/%3E%3Cellipse cx='38' cy='16' rx='6' ry='8'/%3E%3Cellipse cx='48' cy='26' rx='6' ry='8'/%3E%3Cellipse cx='32' cy='44' rx='14' ry='12'/%3E%3C/svg%3E");
+  --f-display: "Fredoka", "Arial Rounded MT Bold", "Nunito", system-ui, sans-serif;
+  --f-body: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono: "Nunito", "Segoe UI", system-ui, sans-serif;
+  --radius: 22px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1d1828; --surface: #282137; --surface-2: #2f2741; --ink: #f3ecfb; --muted: #b6a8cb; --line: #3d3352;
+    --ocean: #1d2c3e; --land-empty: #3d3548; --accent: #ff9aa0; --accent-ink: #2a1a24; --accent-soft: #4a2a36;
+    --tag: #f2c35c; --tag-ink: #3a2610; --fur: #e9a75e; --fur-dark: #b0703c; --muzzle: #fbe9d3; --tongue: #f08aa0;
+    --r1: #5ccfa6; --r2: #b0df8e; --r3: #f4d77c; --r4: #f6aa76; --r5: #f07f8c; --ban: #c95a8a;
+    --warn-bg: #43361a; --warn-ink: #f7dc97; --danger-bg: #4a2232; --danger-ink: #ffc0cf; --ok-bg: #173d33; --ok-ink: #a6ecd2;
+    --shadow: 0 2px 0 rgba(0,0,0,.2), 0 10px 30px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1d1828; --surface: #282137; --surface-2: #2f2741; --ink: #f3ecfb; --muted: #b6a8cb; --line: #3d3352;
+  --ocean: #1d2c3e; --land-empty: #3d3548; --accent: #ff9aa0; --accent-ink: #2a1a24; --accent-soft: #4a2a36;
+  --tag: #f2c35c; --tag-ink: #3a2610; --fur: #e9a75e; --fur-dark: #b0703c; --muzzle: #fbe9d3; --tongue: #f08aa0;
+  --r1: #5ccfa6; --r2: #b0df8e; --r3: #f4d77c; --r4: #f6aa76; --r5: #f07f8c; --ban: #c95a8a;
+  --warn-bg: #43361a; --warn-ink: #f7dc97; --danger-bg: #4a2232; --danger-ink: #ffc0cf; --ok-bg: #173d33; --ok-ink: #a6ecd2;
+  --shadow: 0 2px 0 rgba(0,0,0,.2), 0 10px 30px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+
+html, body { height: 100%; }
+body { background: var(--bg) var(--paw-bg) repeat; color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.55; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+* { box-sizing: border-box; }
+h1, h2, h3, h4 { font-family: var(--f-display); text-wrap: balance; margin: 0; font-weight: 600; }
+button, input, select { font: inherit; color: inherit; }
+a { color: var(--accent); font-weight: 700; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 8px; }
+.mono { font-variant-numeric: tabular-nums; }
+.paw { width: 14px; height: 14px; flex: none; display: inline-block; background: currentColor; -webkit-mask: var(--paw-mask) center / contain no-repeat; mask: var(--paw-mask) center / contain no-repeat; }
+
+.app {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 12px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 12px;
+}
+
+/* En-tête */
+.top { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.mascot { width: 58px; height: 54px; flex: none; animation: wiggle 4s ease-in-out infinite; transform-origin: 50% 90%; }
+.mascot .ear-l { transform-origin: 34px 34px; animation: ear 4s ease-in-out infinite; }
+@keyframes wiggle { 0%, 86%, 100% { transform: rotate(0); } 90% { transform: rotate(-6deg); } 94% { transform: rotate(5deg); } }
+@keyframes ear { 0%, 70%, 100% { transform: rotate(0); } 76% { transform: rotate(-14deg); } 82% { transform: rotate(0); } }
+.brand h1 { font-size: 30px; font-weight: 700; line-height: 1; letter-spacing: -0.01em; }
+.brand h1 em { font-style: normal; color: var(--accent); }
+.brand p { margin: 4px 0 0; color: var(--muted); font-size: 14.5px; font-weight: 600; }
+.top-actions { margin-left: auto; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.search { position: relative; }
+.search input {
+  width: 240px; max-width: 60vw; padding: 9px 16px; border: 2px solid var(--line); border-radius: 999px;
+  background: var(--surface); outline-offset: 0; font-weight: 600;
+}
+.search input:focus { border-color: var(--accent); outline: none; }
+.seg { display: inline-flex; padding: 3px; border-radius: 999px; background: var(--surface); border: 2px solid var(--line); }
+.seg button { border: 0; background: transparent; padding: 6px 14px; cursor: pointer; font-weight: 800; font-size: 14px; color: var(--muted); border-radius: 999px; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+
+/* Modes de couleur */
+.modes { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 4px; scrollbar-width: thin; }
+.mode {
+  flex: none; border: 2px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 14px;
+  font-size: 14px; font-weight: 800; cursor: pointer; color: var(--muted); white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 7px; transition: transform .15s, border-color .15s;
+}
+.mode:hover { color: var(--ink); border-color: var(--accent); transform: translateY(-1px); }
+.mode .paw { opacity: 0; width: 0; transition: width .15s, opacity .15s; }
+.mode[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); box-shadow: 0 4px 0 color-mix(in srgb, var(--accent) 55%, var(--ink)); }
+.mode[aria-pressed="true"] .paw { opacity: 1; width: 14px; }
+
+/* Corps */
+.main { display: grid; grid-template-columns: minmax(0, 1fr) 440px; gap: 14px; min-height: 0; }
+.stage { position: relative; min-height: 0; min-width: 0; background: var(--ocean); border-radius: 28px; overflow: hidden; border: 3px solid var(--surface); box-shadow: var(--shadow); }
+#map { width: 100%; height: 100%; display: block; touch-action: none; }
+#map .land { fill: var(--land-empty); stroke: var(--surface); stroke-width: .8px; stroke-linejoin: round; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill .3s; }
+#map .land:hover { stroke: var(--ink); stroke-width: 1.5px; }
+#map .land.sel { stroke: var(--ink); stroke-width: 2.5px; }
+#map .land.terr { cursor: default; }
+#map .dot { fill: var(--land-empty); stroke: var(--surface); stroke-width: 1.5px; vector-effect: non-scaling-stroke; cursor: pointer; }
+#map .dot.sel { stroke: var(--ink); stroke-width: 2.5px; }
+#map .graticule { fill: none; stroke: var(--surface); stroke-width: .6px; stroke-dasharray: 2 4; vector-effect: non-scaling-stroke; opacity: .7; }
+#map .sphere { fill: var(--ocean); }
+.zoom { position: absolute; right: 12px; top: 12px; display: flex; flex-direction: column; gap: 6px; }
+.zoom button { width: 38px; height: 38px; border-radius: 50%; border: 2px solid var(--line); background: var(--surface); cursor: pointer; font-size: 18px; font-weight: 800; line-height: 1; box-shadow: var(--shadow); }
+.zoom button:hover { border-color: var(--accent); }
+.legend {
+  position: absolute; left: 12px; bottom: 12px; background: var(--surface); border-radius: 18px;
+  padding: 12px 14px; box-shadow: var(--shadow); max-width: min(380px, calc(100% - 24px)); font-size: 13px; font-weight: 600;
+}
+.legend h4 { font-size: 15px; margin-bottom: 6px; }
+.legend ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.legend li { display: flex; align-items: center; gap: 5px; }
+.legend .paw { width: 16px; height: 16px; }
+.sw { width: 12px; height: 12px; border-radius: 4px; flex: none; }
+.legend .note { color: var(--muted); margin: 6px 0 0; font-size: 12.5px; font-weight: 400; }
+.tip {
+  position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); padding: 7px 12px; border-radius: 14px;
+  font-size: 13px; font-weight: 600; max-width: 260px; transform: translate(-50%, calc(-100% - 14px)); white-space: nowrap; z-index: 3;
+}
+.tip::after { content: ""; position: absolute; left: 50%; bottom: -6px; margin-left: -6px; border: 6px solid transparent; border-bottom: 0; border-top-color: var(--ink); }
+.tip b { font-weight: 800; }
+.loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-weight: 700; font-family: var(--f-display); font-size: 18px; }
+
+/* Tableau */
+.table-wrap { position: absolute; inset: 0; overflow: auto; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { position: sticky; top: 0; background: var(--surface-2); font-weight: 800; cursor: pointer; user-select: none; z-index: 1; font-family: var(--f-display); font-size: 14.5px; }
+th[aria-sort="ascending"]::after { content: " ↑"; }
+th[aria-sort="descending"]::after { content: " ↓"; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--surface-2); }
+tbody tr.sel { background: var(--accent-soft); }
+td.num { font-variant-numeric: tabular-nums; text-align: right; font-weight: 700; }
+
+/* Panneau */
+.panel { min-height: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; padding: 10px 4px 4px 2px; }
+.card { background: var(--surface); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
+
+/* Médaille de collier « Mon chien » */
+.dog { background: var(--tag); color: var(--tag-ink); position: relative; outline: 2px dashed color-mix(in srgb, var(--tag-ink) 30%, transparent); outline-offset: -9px; padding-top: 22px; }
+.dog::before {
+  content: ""; position: absolute; top: -10px; left: 50%; width: 22px; height: 22px; margin-left: -11px; border-radius: 50%;
+  background: var(--bg); border: 4px solid color-mix(in srgb, var(--tag-ink) 55%, var(--tag));
+}
+.dog h2 { font-size: 21px; display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.dog .stamp { font-family: var(--f-body); font-size: 11.5px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; background: rgba(255,255,255,.55); padding: 2px 9px; border-radius: 999px; }
+.dog-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.dog-head button { background: rgba(255,255,255,.55); border: 0; color: inherit; cursor: pointer; font-size: 13px; font-weight: 800; padding: 4px 12px; border-radius: 999px; }
+.dog form { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 10px; margin-top: 12px; }
+.dog label { display: flex; flex-direction: column; gap: 3px; font-size: 12px; font-weight: 800; letter-spacing: .03em; }
+.dog label.full { grid-column: 1 / -1; }
+.dog input[type="text"], .dog input[type="number"] {
+  border: 2px solid transparent; background: rgba(255,255,255,.75); color: var(--tag-ink); border-radius: 12px; padding: 7px 10px;
+  font-size: 15px; font-weight: 700; width: 100%;
+}
+.dog input[type="text"]:focus, .dog input[type="number"]:focus { border-color: var(--tag-ink); outline: none; }
+.dog .check { flex-direction: row; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; letter-spacing: 0; }
+.dog .check input { width: 18px; height: 18px; accent-color: var(--tag-ink); }
+.dog-sum { margin: 10px 0 0; font-size: 14px; display: flex; flex-direction: column; gap: 4px; }
+.dog-sum .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 11px; border-radius: 999px; font-size: 13px; font-weight: 800; background: rgba(255,255,255,.6); }
+.example { font-size: 12.5px; font-weight: 600; opacity: .8; }
+
+/* Alertes */
+.alert { border-radius: 16px; padding: 12px 14px; font-size: 14px; }
+.alert b { font-weight: 800; }
+.alert.danger { background: var(--danger-bg); color: var(--danger-ink); }
+.alert.warn { background: var(--warn-bg); color: var(--warn-ink); }
+.alert.ok { background: var(--ok-bg); color: var(--ok-ink); }
+.alert ul { margin: 6px 0 0; padding-left: 0; list-style: none; }
+.alert li { position: relative; padding-left: 20px; }
+.alert li::before { content: ""; position: absolute; left: 0; top: 4px; width: 13px; height: 13px; background: currentColor; opacity: .55; -webkit-mask: var(--paw-mask) center / contain no-repeat; mask: var(--paw-mask) center / contain no-repeat; }
+.alert li + li { margin-top: 4px; }
+
+/* Synthèse globale */
+.counts { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-top: 12px; }
+.count { border-radius: 16px; padding: 10px 6px 8px; text-align: center; background: var(--surface-2); }
+.count .paw { width: 20px; height: 20px; display: block; margin: 0 auto 4px; }
+.count b { display: block; font-family: var(--f-display); font-size: 24px; line-height: 1; font-weight: 700; }
+.count span { font-size: 11.5px; color: var(--muted); line-height: 1.2; display: block; margin-top: 4px; font-weight: 700; }
+.intro h2 { font-size: 21px; margin-bottom: 6px; }
+.intro p { margin: 8px 0; color: var(--muted); }
+.link-btn { background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; font-weight: 800; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 2px; }
+
+/* Fiche pays */
+.fiche-head { display: flex; flex-direction: column; gap: 8px; }
+.fiche-head .row1 { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.fiche-head h2 { font-size: 32px; font-weight: 700; line-height: 1.05; }
+.close { border: 2px solid var(--line); background: var(--surface-2); border-radius: 50%; width: 36px; height: 36px; cursor: pointer; flex: none; font-size: 15px; font-weight: 800; }
+.close:hover { border-color: var(--accent); }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { font-size: 12.5px; font-weight: 800; padding: 3px 11px; border-radius: 999px; background: var(--surface-2); color: var(--muted); border: 2px solid var(--line); }
+.badge.good { background: var(--ok-bg); color: var(--ok-ink); border-color: transparent; }
+.badge.mid { background: var(--warn-bg); color: var(--warn-ink); border-color: transparent; }
+.badge.bad { background: var(--danger-bg); color: var(--danger-ink); border-color: transparent; }
+.resume { margin: 0; font-size: 15.5px; }
+.tabs { display: flex; gap: 2px; overflow-x: auto; margin: 6px 0 0; padding: 4px; background: var(--surface-2); border-radius: 999px; }
+.tabs button { flex: 1 0 auto; border: 0; background: none; padding: 7px 10px; font-weight: 800; font-size: 14px; color: var(--muted); cursor: pointer; border-radius: 999px; white-space: nowrap; }
+.tabs button[aria-selected="true"] { color: var(--accent-ink); background: var(--accent); }
+.tabpanel { padding-top: 14px; display: flex; flex-direction: column; gap: 14px; }
+.kv { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 8px; margin: 0; }
+.kv div { background: var(--surface-2); border-radius: 16px; padding: 10px 12px; min-width: 0; }
+.kv dt { font-size: 12px; color: var(--muted); font-weight: 800; }
+.kv dd { margin: 2px 0 0; font-family: var(--f-display); font-weight: 700; font-size: 20px; line-height: 1.15; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.kv dd small { font-family: var(--f-body); font-weight: 600; font-size: 12px; color: var(--muted); display: block; }
+.block h3 { font-size: 16.5px; margin-bottom: 3px; }
+.block p { margin: 0; overflow-wrap: anywhere; }
+.block + .block { border-top: 2px dotted var(--line); padding-top: 12px; }
+.steps { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; }
+.steps li { position: relative; padding: 0 0 12px 28px; }
+.steps li::before { content: ""; position: absolute; left: 1px; top: 2px; width: 18px; height: 18px; background: var(--accent); -webkit-mask: var(--paw-mask) center / contain no-repeat; mask: var(--paw-mask) center / contain no-repeat; }
+.steps li::after { content: ""; position: absolute; left: 9.5px; top: 23px; bottom: 0; border-left: 2px dotted var(--line); }
+.steps li:last-child::after { display: none; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 12px; margin: 4px 0 0; }
+.facts dt { font-weight: 800; color: var(--muted); font-size: 13.5px; }
+.facts dd { margin: 0; overflow-wrap: anywhere; }
+.races { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.races span { font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); border: 2px solid var(--line); }
+.races span.ban { background: var(--danger-bg); color: var(--danger-ink); border-color: transparent; }
+.races span.mine { border-color: var(--ink); }
+.sources { font-size: 13px; color: var(--muted); }
+.sources ul { margin: 4px 0 0; padding-left: 18px; }
+.sources a { overflow-wrap: anywhere; font-weight: 600; }
+.meta { font-size: 12.5px; color: var(--muted); }
+.empty { color: var(--muted); font-style: italic; }
+.territoire p { margin: 6px 0 0; color: var(--muted); }
+
+@media (max-width: 960px) {
+  html, body { height: auto; }
+  .app { height: auto; grid-template-rows: auto auto auto; }
+  .main { grid-template-columns: minmax(0, 1fr); }
+  .stage { height: 58vh; min-height: 320px; }
+  .panel { overflow: visible; }
+  .brand h1 { font-size: 25px; }
+  .top-actions { margin-left: 0; width: 100%; }
+  .search { flex: 1; }
+  .search input { width: 100%; max-width: none; }
+}
+@media (max-width: 640px) {
+  .legend { padding: 8px 10px; font-size: 12px; left: 8px; bottom: 8px; }
+  .legend h4 { font-size: 13.5px; }
+  .legend .note { display: none; }
+  .legend ul { gap: 2px 9px; }
+  .brand p { display: none; }
+}
+@media (max-width: 480px) {
+  .counts { grid-template-columns: repeat(3, 1fr); }
+  .dog form { grid-template-columns: 1fr 1fr; }
+  .facts { grid-template-columns: 1fr; gap: 2px 0; }
+  .facts dd { margin-bottom: 6px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #map .land, .mode { transition: none; }
+  .mascot, .mascot .ear-l { animation: none; }
+}
+
+/* DA v2 : mascotte, autocollant verdict, trajet */
+.trip { pointer-events: none; }
+.trip use { fill: var(--ink); opacity: .72; }
+.trip use.walk { animation: paw-in .35s ease-out both; }
+.trip circle { fill: var(--surface); stroke: var(--ink); stroke-width: 2.5px; vector-effect: non-scaling-stroke; }
+@keyframes paw-in { from { opacity: 0; } to { opacity: .72; } }
+.dog-head { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 10px; }
+.dog-face { display: block; width: 46px; height: 46px; border-radius: 50%; background: rgba(255,255,255,.6); }
+.dog-face svg { display: block; }
+.dog-id { min-width: 0; }
+.dog-id h2 { font-size: 19px; }
+.dog-sum { margin: 2px 0 0; font-size: 14px; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.dog.folded { padding-block: 14px 12px; }
+.sticker { width: 74px; height: 74px; flex: none; border-radius: 50%; display: grid; place-items: center; background: color-mix(in srgb, var(--c) 45%, var(--surface)); border: 3px solid var(--surface); box-shadow: 0 0 0 3px var(--c), var(--shadow); transform: rotate(-6deg); }
+.fiche-head .row1 { align-items: center; }
+.fiche-head .title { flex: 1; min-width: 0; }
+.verdict-label { margin: 4px 0 0; display: inline-block; font-family: var(--f-display); font-weight: 600; font-size: 15px; padding: 2px 12px; border-radius: 999px; background: color-mix(in srgb, var(--c) 28%, var(--surface)); }
+.badge.quiet { background: transparent; border-style: dashed; }
+.kv div { position: relative; padding-left: 40px; }
+.kv .ico { position: absolute; left: 10px; top: 12px; width: 22px; height: 22px; fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.count svg { display: block; margin: 0 auto 4px; border-radius: 50%; background: color-mix(in srgb, var(--c) 40%, var(--surface)); }
+.intro h2 em { font-style: normal; color: var(--accent); font-size: 1.35em; }
+.mini-title { font-size: 16px; margin-bottom: 6px; }
+.pawlist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.pawlist li { position: relative; padding-left: 22px; }
+.pawlist li::before { content: ""; position: absolute; left: 0; top: 4px; width: 14px; height: 14px; background: var(--accent); -webkit-mask: var(--paw-mask) center / contain no-repeat; mask: var(--paw-mask) center / contain no-repeat; }
+@media (prefers-reduced-motion: reduce) { .trip use.walk { animation: none; } }
+.dog-id h2 { white-space: nowrap; }
+@media (max-width: 640px) {
+  .legend h4 { display: none; }
+  .legend { font-size: 11.5px; padding: 6px 9px; max-width: calc(100% - 60px); }
+  .legend .paw { width: 12px; height: 12px; }
+  .dog-id h2 { font-size: 17px; }
+  .dog .stamp { font-size: 10px; padding: 1px 7px; }
+}
+.sejour { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; background: var(--surface-2); border-radius: 16px; padding: 10px 14px; font-weight: 800; }
+.sejour input { width: 72px; border: 2px solid var(--line); border-radius: 12px; padding: 5px 8px; font-weight: 800; font-size: 16px; background: var(--surface); text-align: center; }
+.sejour input:focus { border-color: var(--accent); outline: none; }
+.sejour span { color: var(--muted); font-weight: 700; }
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <svg class="mascot" viewBox="0 0 120 112" aria-hidden="true">
+        <path class="ear-l" d="M36 30 C16 26 4 52 12 78 C16 88 28 86 32 74 C36 60 38 46 40 36 Z" fill="var(--fur-dark)"/>
+        <path d="M84 30 C104 26 116 52 108 78 C104 88 92 86 88 74 C84 60 82 46 80 36 Z" fill="var(--fur-dark)"/>
+        <ellipse cx="60" cy="58" rx="36" ry="35" fill="var(--fur)"/>
+        <ellipse cx="60" cy="76" rx="21" ry="16" fill="var(--muzzle)"/>
+        <ellipse cx="38" cy="70" rx="7" ry="4.5" fill="var(--tongue)" opacity=".45"/>
+        <ellipse cx="82" cy="70" rx="7" ry="4.5" fill="var(--tongue)" opacity=".45"/>
+        <circle cx="46" cy="54" r="5" fill="#2f2540"/><circle cx="74" cy="54" r="5" fill="#2f2540"/>
+        <circle cx="47.6" cy="52.4" r="1.7" fill="#fff"/><circle cx="75.6" cy="52.4" r="1.7" fill="#fff"/>
+        <ellipse cx="60" cy="68" rx="7.5" ry="5.5" fill="#2f2540"/>
+        <path d="M54 82 Q57 95 60 95 Q63 95 66 82 Z" fill="var(--tongue)"/>
+        <path d="M60 73 V78 M60 78 Q55 84 49 80 M60 78 Q65 84 71 80" stroke="#2f2540" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+      </svg>
+      <div>
+        <h1>Toutou <em>en vadrouille</em></h1>
+        <p>Impôts, visa et règles chien, pays par pays.</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <div class="search">
+        <input id="search" type="search" list="country-list" placeholder="Chercher un pays…" aria-label="Chercher un pays" autocomplete="off">
+        <datalist id="country-list"></datalist>
+      </div>
+      <div class="seg" role="group" aria-label="Affichage">
+        <button id="view-map" aria-pressed="true">Carte</button>
+        <button id="view-table" aria-pressed="false">Tableau</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="modes" id="modes" aria-label="Colorer la carte selon"></nav>
+
+  <main class="main">
+    <section class="stage" id="stage">
+      <svg id="map" role="img" aria-label="Carte du monde colorée selon le critère choisi"></svg>
+      <div class="zoom">
+        <button id="zoom-in" aria-label="Zoomer">+</button>
+        <button id="zoom-out" aria-label="Dézoomer">−</button>
+        <button id="zoom-reset" aria-label="Recentrer" style="font-size:14px">⤢</button>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="tip" id="tip" hidden></div>
+      <div class="table-wrap" id="table-wrap" hidden></div>
+      <div class="loading" id="loading">On renifle la carte…</div>
+    </section>
+
+    <aside class="panel" id="panel">
+      <section class="card dog" id="dog-card" aria-label="Mon chien">
+        <div class="dog-head" id="dog-toggle">
+          <span class="dog-face" id="dog-face" aria-hidden="true"></span>
+          <div class="dog-id">
+            <h2>Mon chien <span class="stamp" id="dog-stamp">Profil</span></h2>
+            <div class="dog-sum" id="dog-sum"></div>
+          </div>
+          <button type="button" id="dog-fold" aria-expanded="true">OK</button>
+        </div>
+        <form id="dog-form" autocomplete="off">
+          <label class="full">Race (ou type)
+            <input id="dog-race" type="text" list="breed-list" placeholder="ex. Berger australien, croisé…">
+            <datalist id="breed-list"></datalist>
+          </label>
+          <label>Poids (kg)
+            <input id="dog-poids" type="number" min="0.5" max="120" step="0.5" inputmode="decimal">
+          </label>
+          <label>Âge (mois)
+            <input id="dog-age" type="number" min="1" max="240" step="1" inputmode="numeric">
+          </label>
+          <label>Séjour (mois)
+            <input id="dog-sejour" type="number" min="1" max="240" step="1" inputmode="numeric">
+          </label>
+          <label>Nombre de chiens
+            <input id="dog-nombre" type="number" min="1" max="20" step="1" inputmode="numeric">
+          </label>
+          <label class="check full"><input id="dog-lof" type="checkbox"> Pedigree LOF / FCI</label>
+          <label class="check full"><input id="dog-titrage" type="checkbox"> Titrage antirabique déjà fait en France</label>
+        </form>
+      </section>
+      <div id="panel-body"></div>
+    </aside>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+(() => {
+"use strict";
+
+/* ---------- Races ---------- */
+// [nom affiché, identifiant de règle, brachycéphale]
+const BREEDS = [
+  ["American Pit Bull Terrier (type pit-bull)", "pitbull", 0], ["American Staffordshire Terrier", "amstaff", 0],
+  ["Staffordshire Bull Terrier", "staffie", 0], ["Bull Terrier", "bull_terrier", 0], ["Bull Terrier miniature", "bull_terrier", 0],
+  ["American Bully", "american_bully", 1], ["Rottweiler", "rottweiler", 0], ["Dogue argentin (Dogo Argentino)", "dogo_argentino", 0],
+  ["Fila Brasileiro", "fila_brasileiro", 0], ["Tosa", "tosa", 0], ["Cane Corso", "cane_corso", 0],
+  ["Dogue des Canaries (Presa Canario)", "presa_canario", 0], ["Boerboel", "boerboel", 0], ["Mastiff", "mastiff", 1],
+  ["Bullmastiff", "bullmastiff", 1], ["Mâtin napolitain", "mastin_napolitano", 1], ["Dogue de Bordeaux", "dogue_de_bordeaux", 1],
+  ["Dogue allemand", "dogue_allemand", 0], ["Dobermann", "doberman", 0], ["Berger allemand", "berger_allemand", 0],
+  ["Berger belge malinois", "malinois", 0], ["Berger du Caucase", "caucasien", 0], ["Berger d'Asie centrale", "asie_centrale", 0],
+  ["Kangal / Berger d'Anatolie", "kangal", 0], ["Akita Inu", "akita", 0], ["Akita américain", "akita", 0],
+  ["Chow-chow", "chow_chow", 1], ["Shar-Pei", "shar_pei", 1], ["Husky sibérien", "husky", 0], ["Malamute d'Alaska", "malamute", 0],
+  ["Chien-loup tchécoslovaque", "chien_loup", 0], ["Chien-loup de Saarloos", "chien_loup", 0], ["Bandog", "bandog", 0],
+  ["Rhodesian Ridgeback", "rhodesian", 0], ["Dogue de Majorque (Ca de Bou)", "ca_de_bou", 0], ["Terrier brésilien", "terrier_bresilien", 0],
+  ["Croisé type molosse / pit-bull", "molosse_croise", 0],
+  ["Berger australien", "autre", 0], ["Border Collie", "autre", 0], ["Labrador Retriever", "autre", 0], ["Golden Retriever", "autre", 0],
+  ["Jack Russell Terrier", "autre", 0], ["Chihuahua", "autre", 0], ["Yorkshire Terrier", "autre", 0], ["Bichon frisé", "autre", 0],
+  ["Bichon maltais", "autre", 0], ["Bichon havanais", "autre", 0], ["Coton de Tuléar", "autre", 0], ["Caniche toy / nain", "autre", 0],
+  ["Caniche moyen / royal", "autre", 0], ["Cocker anglais", "autre", 0], ["Cocker américain", "autre", 0], ["Épagneul breton", "autre", 0],
+  ["Beagle", "autre", 0], ["Teckel", "autre", 0], ["Shih Tzu", "autre", 1], ["Lhassa Apso", "autre", 1], ["Carlin", "autre", 1],
+  ["Bouledogue français", "autre", 1], ["Bulldog anglais", "autre", 1], ["Bulldog américain", "autre", 1], ["Boxer", "autre", 1],
+  ["Boston Terrier", "autre", 1], ["Pékinois", "autre", 1], ["Cavalier King Charles", "autre", 1], ["Épagneul japonais", "autre", 1],
+  ["Griffon bruxellois", "autre", 1], ["Affenpinscher", "autre", 1], ["Spitz nain / Loulou de Poméranie", "autre", 0],
+  ["Spitz japonais", "autre", 0], ["Shiba Inu", "autre", 0], ["Samoyède", "autre", 0], ["Bouvier bernois", "autre", 0],
+  ["Saint-Bernard", "autre", 0], ["Terre-neuve", "autre", 0], ["Léonberg", "autre", 0], ["Montagne des Pyrénées (Patou)", "autre", 0],
+  ["Dogue du Tibet", "autre", 0], ["Berger blanc suisse", "autre", 0], ["Berger des Shetland", "autre", 0], ["Colley", "autre", 0],
+  ["Beauceron", "autre", 0], ["Berger de Brie (Briard)", "autre", 0], ["Berger hollandais", "autre", 0], ["Bouvier des Flandres", "autre", 0],
+  ["West Highland White Terrier", "autre", 0], ["Cairn Terrier", "autre", 0], ["Scottish Terrier", "autre", 0], ["Fox Terrier", "autre", 0],
+  ["Airedale Terrier", "autre", 0], ["Schnauzer nain", "autre", 0], ["Schnauzer moyen / géant", "autre", 0], ["Pinscher nain", "autre", 0],
+  ["Braque allemand", "autre", 0], ["Braque de Weimar", "autre", 0], ["Setter irlandais", "autre", 0], ["Setter anglais", "autre", 0],
+  ["Springer anglais", "autre", 0], ["Whippet", "autre", 0], ["Greyhound", "autre", 0], ["Galgo espagnol", "autre", 0],
+  ["Lévrier afghan", "autre", 0], ["Podenco", "autre", 0], ["Dalmatien", "autre", 0], ["Basset Hound", "autre", 0],
+  ["Welsh Corgi", "autre", 0], ["Basenji", "autre", 0], ["Papillon", "autre", 0],
+  ["Croisé petit gabarit", "autre", 0], ["Croisé moyen gabarit", "autre", 0], ["Croisé grand gabarit", "autre", 0],
+];
+const RACE_LABEL = {
+  pitbull: "Pit-bull", amstaff: "American Staffordshire", staffie: "Staffordshire Bull Terrier", bull_terrier: "Bull Terrier",
+  american_bully: "American Bully", rottweiler: "Rottweiler", dogo_argentino: "Dogue argentin", fila_brasileiro: "Fila Brasileiro",
+  tosa: "Tosa", cane_corso: "Cane Corso", presa_canario: "Presa Canario", boerboel: "Boerboel", mastiff: "Mastiff",
+  bullmastiff: "Bullmastiff", mastin_napolitano: "Mâtin napolitain", dogue_de_bordeaux: "Dogue de Bordeaux", dogue_allemand: "Dogue allemand",
+  doberman: "Dobermann", berger_allemand: "Berger allemand", malinois: "Malinois", caucasien: "Berger du Caucase",
+  asie_centrale: "Berger d'Asie centrale", kangal: "Kangal", akita: "Akita", chow_chow: "Chow-chow", shar_pei: "Shar-Pei",
+  husky: "Husky", malamute: "Malamute", chien_loup: "Chien-loup / hybride", bandog: "Bandog", rhodesian: "Rhodesian Ridgeback",
+  ca_de_bou: "Ca de Bou", terrier_bresilien: "Terrier brésilien", tous_molosses: "Tous les molosses / chiens dits dangereux",
+  grands_chiens: "Grands chiens (taille / poids)",
+};
+const MOLOSSES = new Set(["pitbull", "amstaff", "staffie", "american_bully", "bull_terrier", "rottweiler", "dogo_argentino", "fila_brasileiro",
+  "tosa", "cane_corso", "presa_canario", "boerboel", "mastiff", "bullmastiff", "mastin_napolitano", "dogue_de_bordeaux", "ca_de_bou",
+  "bandog", "molosse_croise"]);
+
+function findBreed(txt) {
+  const t = (txt || "").trim().toLowerCase();
+  if (!t) return null;
+  const exact = BREEDS.find(b => b[0].toLowerCase() === t);
+  if (exact) return { nom: exact[0], id: exact[1], brachy: !!exact[2] };
+  const part = BREEDS.find(b => b[0].toLowerCase().includes(t) || t.includes(b[0].toLowerCase().split(" (")[0]));
+  if (part) return { nom: part[0], id: part[1], brachy: !!part[2] };
+  return { nom: txt.trim(), id: "autre", brachy: false };
+}
+
+// Catégorie française (arrêté du 27/04/1999) : 1, 2, "1?" (selon diagnose) ou 0.
+function catFR(id, lof) {
+  if (id === "pitbull" || id === "boerboel") return 1;
+  if (id === "amstaff" || id === "tosa") return lof ? 2 : 1;
+  if (id === "rottweiler") return 2;
+  if (id === "mastiff" || id === "bullmastiff") return lof ? 0 : 1;
+  if (id === "staffie") return lof ? 0 : "1?";
+  if (id === "american_bully" || id === "molosse_croise") return "1?";
+  return 0;
+}
+
+/* ---------- Mascotte : la tête du chien change selon le verdict ---------- */
+function dogFace(mood, size) {
+  const sad = mood === "tres_difficile" || mood === "interdit";
+  const ink = "#2f2540";
+  const earL = sad ? "rotate(14 38 38)" : mood === "ok" ? "rotate(-10 38 38)" : "";
+  const earR = sad ? "rotate(-14 82 38)" : mood === "ok" ? "rotate(10 82 38)" : "";
+  const eyes = {
+    ok: `<path d="M41 57 q6 -7 12 0 M67 57 q6 -7 12 0" stroke="${ink}" stroke-width="3.4" fill="none" stroke-linecap="round"/>`,
+    faisable: `<circle cx="47" cy="56" r="5" fill="${ink}"/><circle cx="73" cy="56" r="5" fill="${ink}"/><circle cx="48.7" cy="54.3" r="1.8" fill="#fff"/><circle cx="74.7" cy="54.3" r="1.8" fill="#fff"/>`,
+    difficile: `<circle cx="47" cy="57" r="4.6" fill="${ink}"/><circle cx="73" cy="57" r="4.6" fill="${ink}"/><circle cx="48.5" cy="55.5" r="1.6" fill="#fff"/><circle cx="74.5" cy="55.5" r="1.6" fill="#fff"/><path d="M40 49 L51 45 M80 49 L69 45" stroke="${ink}" stroke-width="2.8" stroke-linecap="round"/>`,
+    tres_difficile: `<circle cx="47" cy="58" r="4.6" fill="${ink}"/><circle cx="73" cy="58" r="4.6" fill="${ink}"/><path d="M40 48 L51 44 M80 48 L69 44" stroke="${ink}" stroke-width="2.8" stroke-linecap="round"/><path d="M76 63 q3 5 0 8 q-3 -3 0 -8z" fill="#8fd0f5"/>`,
+    interdit: `<path d="M41 55 q6 6 12 0 M67 55 q6 6 12 0" stroke="${ink}" stroke-width="3.4" fill="none" stroke-linecap="round"/>`,
+  }[mood] || "";
+  const mouth = {
+    ok: `<path d="M60 74 v4 M60 78 q-6 7 -12 2 M60 78 q6 7 12 2" stroke="${ink}" stroke-width="2.8" fill="none" stroke-linecap="round"/><path d="M55 82 q5 13 10 0z" fill="var(--tongue)"/>`,
+    faisable: `<path d="M60 74 v4 M60 78 q-5 5 -10 1 M60 78 q5 5 10 1" stroke="${ink}" stroke-width="2.8" fill="none" stroke-linecap="round"/>`,
+    difficile: `<path d="M60 74 v4 M51 84 q4.5 -3 9 0 q4.5 3 9 0" stroke="${ink}" stroke-width="2.8" fill="none" stroke-linecap="round"/>`,
+  }[mood] || `<path d="M60 74 v4 M51 87 q9 -8 18 0" stroke="${ink}" stroke-width="2.8" fill="none" stroke-linecap="round"/>`;
+  const no = mood === "interdit" ? `<circle cx="96" cy="96" r="15" fill="var(--ban)" stroke="var(--surface)" stroke-width="4"/><path d="M88 104 L104 88" stroke="#fff" stroke-width="4" stroke-linecap="round"/>` : "";
+  return `<svg viewBox="0 0 120 120" width="${size}" height="${size}" aria-hidden="true">
+    <path d="M36 34 C18 30 8 54 15 76 C19 85 29 83 32 72 C35 60 37 48 40 40 Z" fill="var(--fur-dark)" transform="${earL}"/>
+    <path d="M84 34 C102 30 112 54 105 76 C101 85 91 83 88 72 C85 60 83 48 80 40 Z" fill="var(--fur-dark)" transform="${earR}"/>
+    <ellipse cx="60" cy="62" rx="34" ry="33" fill="var(--fur)"/>
+    <ellipse cx="60" cy="78" rx="19" ry="14" fill="var(--muzzle)"/>
+    <ellipse cx="40" cy="72" rx="6" ry="4" fill="var(--tongue)" opacity=".4"/><ellipse cx="80" cy="72" rx="6" ry="4" fill="var(--tongue)" opacity=".4"/>
+    ${eyes}<ellipse cx="60" cy="70" rx="7" ry="5" fill="${ink}"/>${mouth}${no}</svg>`;
+}
+const ICONS = {
+  ir: '<circle cx="12" cy="12" r="8"/><path d="M14.5 9.2a3.4 3.4 0 1 0 0 5.6M8 11h5M8 13.4h5"/>',
+  is: '<path d="M5 20V6l7-3 7 3v14M9 9h1M14 9h1M9 13h1M14 13h1M10 20v-3h4v3"/>',
+  gauge: '<path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l4-5"/>',
+  cart: '<path d="M4 5h2l2 10h9l2-7H7"/><circle cx="9" cy="19" r="1.4"/><circle cx="16" cy="19" r="1.4"/>',
+  cal: '<rect x="4" y="6" width="16" height="14" rx="3"/><path d="M4 10h16M9 4v4M15 4v4"/>',
+  niche: '<path d="M3 11l9-7 9 7M5 10v10h14V10"/><path d="M9.5 20v-4a2.5 2.5 0 0 1 5 0v4"/>',
+};
+const icon = k => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${ICONS[k]}</svg>`;
+
+/* ---------- Échelles et modes ---------- */
+const LEVELS = ["r1", "r2", "r3", "r4", "r5"];
+const col = k => `var(--${k})`;
+const VERDICTS = {
+  ok: { label: "Facile", c: "r1" }, faisable: { label: "Faisable", c: "r2" }, difficile: { label: "Démarches lourdes", c: "r3" },
+  tres_difficile: { label: "Très difficile", c: "r4" }, interdit: { label: "Race interdite / impossible", c: "ban" },
+};
+const MODES = [
+  { id: "chien", label: "Mon chien", title: "Venir avec ton chien",
+    value: c => c.verdict && c.verdict.lvl,
+    color: v => VERDICTS[v] && col(VERDICTS[v].c),
+    legend: () => Object.entries(VERDICTS).map(([k, v]) => [col(v.c), v.label]),
+    note: "Selon ton profil chien." },
+  { id: "fisc", label: "Pression fiscale", title: "Impôts + cotisations, salarié ~60 k€",
+    value: c => c.fiche && c.fiche.fiscalite && c.fiche.fiscalite.pression,
+    color: v => v ? col(LEVELS[Math.round(v) - 1]) : null,
+    legend: () => [[col("r1"), "Très faible"], [col("r2"), "Faible"], [col("r3"), "Moyenne"], [col("r4"), "Forte"], [col("r5"), "Très forte"]],
+    note: "France : forte à très forte." },
+  { id: "conv", label: "Convention avec la France", title: "Convention fiscale France",
+    value: c => c.fiche && c.fiche.fiscalite && c.fiche.fiscalite.convention_fr && c.fiche.fiscalite.convention_fr.statut,
+    color: v => ({ en_vigueur: col("r1"), speciale: col("r3"), suspendue: col("r4"), aucune: col("r5") })[v],
+    legend: () => [[col("r1"), "En vigueur"], [col("r3"), "Cas particulier"], [col("r4"), "Suspendue"], [col("r5"), "Aucune"]],
+    note: "Sans convention : double imposition possible." },
+  { id: "retour", label: "Retour du chien en France", title: "Revenir dans l'UE avec le chien",
+    value: c => c.fiche && c.fiche.chien ? (c.fiche.chien.liste_ue || "non") : null,
+    color: v => ({ ue: col("r1"), a: col("r1"), b: col("r2"), non: col("r4") })[v],
+    legend: () => [[col("r1"), "UE ou équivalent"], [col("r2"), "Pays listé : certificat, pas de titrage"], [col("r4"), "Non listé : titrage + 3 mois"]],
+    note: "Titrage fait avant le départ = pas d'attente au retour." },
+  { id: "accueil", label: "Vie avec un chien", title: "Vie sur place avec un chien",
+    value: c => c.fiche && c.fiche.chien && c.fiche.chien.accueil,
+    color: v => v ? col(LEVELS[5 - Math.round(v)]) : null,
+    legend: () => [[col("r1"), "Très pet-friendly"], [col("r2"), "Plutôt bien"], [col("r3"), "Moyen"], [col("r4"), "Compliqué"], [col("r5"), "Difficile"]],
+    note: "" },
+  { id: "visa", label: "Visa / séjour", title: "S'installer : droit de séjour",
+    value: c => c.fiche && c.fiche.visa && c.fiche.visa.statut,
+    color: v => ({ libre: col("r1"), facile: col("r2"), moyen: col("r3"), difficile: col("r5") })[v],
+    legend: () => [[col("r1"), "Libre (UE…)"], [col("r2"), "Visa accessible"], [col("r3"), "Sponsor / investissement"], [col("r5"), "Difficile"]],
+    note: "" },
+  { id: "cout", label: "Coût de la vie", title: "Coût de la vie (Paris = 100)",
+    value: c => c.fiche && c.fiche.cout_vie && c.fiche.cout_vie.indice,
+    color: v => v == null ? null : col(v < 40 ? "r1" : v < 60 ? "r2" : v < 80 ? "r3" : v <= 100 ? "r4" : "r5"),
+    legend: () => [[col("r1"), "< 40"], [col("r2"), "40-60"], [col("r3"), "60-80"], [col("r4"), "80-100"], [col("r5"), "> Paris"]],
+    note: "Loyers compris." },
+];
+
+/* ---------- État ---------- */
+const state = { mode: "chien", view: "map", sel: null, tab: "synthese", sort: { key: "nom", dir: 1 } };
+let DATA = null, BY_ISO = {}, COUNTRIES = [];
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
+const has = s => s != null && String(s).trim() !== "";
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* stockage indisponible */ } },
+};
+
+/* ---------- Profil du chien ---------- */
+const EXAMPLE = { race: "Berger australien", poids: 22, age: 36, nombre: 1, sejour: 12, lof: false, titrage: false, example: true };
+let dog = Object.assign({}, EXAMPLE, store.get("atlas-dog") || {});
+
+function readDog() {
+  dog = {
+    race: $("#dog-race").value, poids: parseFloat($("#dog-poids").value) || null, age: parseInt($("#dog-age").value, 10) || null,
+    nombre: parseInt($("#dog-nombre").value, 10) || 1, sejour: parseInt($("#dog-sejour").value, 10) || null,
+    lof: $("#dog-lof").checked, titrage: $("#dog-titrage").checked, example: false,
+  };
+  store.set("atlas-dog", dog);
+}
+function fillDog() {
+  $("#dog-race").value = dog.race || ""; $("#dog-poids").value = dog.poids || ""; $("#dog-age").value = dog.age || "";
+  $("#dog-nombre").value = dog.nombre || 1; $("#dog-sejour").value = dog.sejour || ""; $("#dog-lof").checked = !!dog.lof; $("#dog-titrage").checked = !!dog.titrage;
+}
+function dogInfo() {
+  const b = findBreed(dog.race) || { nom: "", id: "autre", brachy: false };
+  return Object.assign({}, b, { poids: dog.poids, age: dog.age, nombre: dog.nombre || 1, sejour: dog.sejour || 12, lof: dog.lof, titrage: dog.titrage, cat: catFR(b.id, dog.lof) });
+}
+
+function transportNote(d) {
+  const out = [];
+  if (d.poids == null) out.push("Indique le poids.");
+  else if (d.poids <= 6) out.push(`${d.poids} kg : cabine (≤ 8 kg sac compris).`);
+  else if (d.poids <= 8) out.push(`${d.poids} kg : cabine seulement si sac compris ≤ 8 kg, sinon soute.`);
+  else if (d.poids <= 60) out.push(`${d.poids} kg : soute (cage IATA) ou fret.`);
+  else out.push(`${d.poids} kg : fret cargo (cage + chien > 75 kg).`);
+  if (d.brachy) out.push("Nez court : refusé en soute par beaucoup de compagnies (Air France : cabine seulement).");
+  if (["pitbull", "amstaff", "staffie", "american_bully", "molosse_croise"].includes(d.id)) out.push("Type pit-bull / staff : refusé en soute par certaines compagnies.");
+  return out;
+}
+
+function verdictFor(c, d) {
+  const f = c.fiche;
+  if (!f || !f.chien) return null;
+  const ch = f.chien, reasons = [], warns = [];
+  const order = ["ok", "faisable", "difficile", "tres_difficile", "interdit"];
+  const di = ch.difficulte_import || 3;
+  let lvl = di <= 2 ? "ok" : di === 3 ? "faisable" : di === 4 ? "difficile" : "tres_difficile";
+  const bump = to => { if (order.indexOf(to) > order.indexOf(lvl)) lvl = to; };
+  const races = ch.races || {};
+  const banned = races.interdites || [], restr = races.restreintes || [];
+  const matches = id => id === d.id || (id === "tous_molosses" && MOLOSSES.has(d.id)) ||
+    (d.id === "molosse_croise" && ["pitbull", "amstaff", "american_bully"].includes(id)) ||
+    (id === "grands_chiens" && d.poids != null && d.poids >= 20);
+  const ban = banned.find(matches);
+  if (ban) {
+    lvl = "interdit";
+    reasons.push(`${RACE_LABEL[ban] || ban} : race interdite.` + (d.id === "molosse_croise" ? " Pour un croisé, tout dépend de l'apparence du chien." : ""));
+  }
+  const r = restr.find(x => matches(x.id));
+  if (r && !ban) { bump(lvl === "ok" ? "faisable" : "difficile"); reasons.push(`${RACE_LABEL[r.id] || r.id} : ${r.conditions || "race soumise à conditions."}`); }
+  if (ch.limite_nombre && d.nombre > ch.limite_nombre) { bump("difficile"); reasons.push(`Limite de ${ch.limite_nombre} chien(s) : tu en as ${d.nombre}.`); }
+  const imp = ch.import || {};
+  if (imp.quarantaine && imp.quarantaine.jours > 0) warns.push(`Quarantaine : ${imp.quarantaine.jours} jours.`);
+  if (imp.titrage && imp.titrage.requis) warns.push(d.titrage ? "Titrage exigé : le tien peut servir (vérifie sa date)." : "Titrage antirabique exigé.");
+  if (imp.permis_import && imp.permis_import.requis) warns.push("Permis d'import.");
+  if (imp.attente_jours) warns.push(`${imp.attente_jours} jours mini après le vaccin rage.`);
+  if (d.age != null && d.age < 4) { bump("difficile"); reasons.push("Trop jeune : pas de départ avant ~15 semaines."); }
+  if (has(ch.age_minimum) && d.age != null && d.age < 7) warns.push(`Âge minimum : ${ch.age_minimum}`);
+  return { lvl, reasons, warns };
+}
+
+function computeVerdicts() {
+  const d = dogInfo();
+  COUNTRIES.forEach(c => { c.verdict = verdictFor(c, d); });
+  return d;
+}
+
+function renderDogSummary(d) {
+  const counts = { ok: 0, faisable: 0, difficile: 0, tres_difficile: 0, interdit: 0 };
+  COUNTRIES.forEach(c => { if (c.verdict) counts[c.verdict.lvl]++; });
+  $("#dog-stamp").textContent = d.cat === 1 ? "1re catégorie" : d.cat === 2 ? "2e catégorie" : d.cat === "1?" ? "Catégorie à vérifier" : "Non catégorisé";
+  const bits = [d.nom, d.poids ? `${d.poids} kg` : "", d.age ? (d.age >= 24 ? `${Math.floor(d.age / 12)} ans` : `${d.age} mois`) : "", d.nombre > 1 ? `×${d.nombre}` : ""].filter(has);
+  $("#dog-sum").innerHTML = esc(bits.join(" · ") || "Renseigne ton chien") + (dog.example ? ` <span class="example">(exemple)</span>` : "");
+  $("#dog-face").innerHTML = dogFace(d.cat === 1 ? "interdit" : "ok", 46);
+  return counts;
+}
+
+function retourChien(c, d, n) {
+  const ch = c.fiche.chien || {}, l = ch.liste_ue, out = [];
+  if (d.cat === 1) return ["Retour impossible : les chiens de 1re catégorie sont interdits d'entrée en France."];
+  const rappel = n >= 12 ? "Fais le rappel rage sur place avant l'échéance, sans interruption (sinon : nouveau vaccin + 21 j" + (l ? ")." : " + nouveau titrage).") : "";
+  if (l === "ue") {
+    out.push("Passeport européen + vaccin rage valide : rien d'autre.");
+    if (rappel) out.push(rappel);
+  } else {
+    if (!l) {
+      if (d.titrage) out.push("Ton titrage fait en France reste valable tant que les rappels rage sont faits sans interruption.");
+      else if (n < 4) out.push(`Séjour de ${n} mois : fais le titrage en France avant de partir, sinon retour impossible avant ~4 mois (prise de sang + 3 mois).`);
+      else out.push(`Titrage (prise de sang ≥ 30 j après le vaccin) au plus tard au mois ${n - 3} de ton séjour : il faut 3 mois avant d'entrer en France.`);
+    }
+    if (rappel) out.push(rappel);
+    out.push(l === "a" ? "Passeport du pays ou certificat sanitaire UE + vaccin valide." : "Certificat sanitaire UE fait ≤ 10 j avant l'arrivée + déclaration de non-commercialité.");
+    out.push("Arrivée par un point d'entrée voyageurs (Roissy, Orly, Nice…), contrôle des papiers du chien.");
+  }
+  (ch.retour_etapes && ch.retour_etapes.length ? ch.retour_etapes : has(ch.retour_france) && !ch.retour_etapes ? [ch.retour_france] : []).forEach(e => out.push(e));
+  out.push("En France : faire enregistrer la puce à l'I-CAD si elle a été posée à l'étranger.");
+  return out;
+}
+function retourToi(c, n) {
+  const f = c.fiche, fi = f.fiscalite || {}, r = f.retour_france || {}, sec = (f.sante || {}).secu_coordination, out = [];
+  if (n * 30 >= 183) out.push(`Plus de 6 mois sur place : tu deviens en général résident fiscal du pays${has(fi.residence_fiscale) ? ` (${fi.residence_fiscale.replace(/\.$/, "")})` : ""}.`);
+  if (has(fi.exit_tax_local) && !/^(pas|aucun)/i.test(fi.exit_tax_local)) out.push(`Avant de partir du pays : ${fi.exit_tax_local}`);
+  if (has(r.fiscal)) out.push(r.fiscal);
+  out.push("En France : déclare l'année du retour (revenus étrangers perçus après ton arrivée).");
+  out.push(sec === "ue" ? "Santé : droits ouverts tout de suite grâce à la coordination européenne." :
+    "Santé : 3 mois d'attente pour la PUMa, sauf emploi immédiat en France ou adhésion à la CFE pendant l'expatriation.");
+  out.push(sec === "aucune" ? "Retraite : trimestres non comptés, sauf cotisation volontaire à la CNAV." : "Retraite : tes trimestres dans ce pays sont pris en compte.");
+  if (n >= 60) out.push("Après 5 ans hors de France : régime des impatriés possible si tu es recruté depuis l'étranger (30 % du salaire exonéré, 8 ans).");
+  return out;
+}
+
+function catAlert(d) {
+  if (d.cat === 1) return `<div class="alert danger"><b>1re catégorie :</b> interdit d'entrée en France. S'il part, il ne pourra pas revenir.</div>`;
+  if (d.cat === "1?") return `<div class="alert warn"><b>Catégorie à vérifier :</b> sans LOF, il peut être classé 1re catégorie et ne plus pouvoir revenir en France.</div>`;
+  if (d.cat === 2) return `<div class="alert warn"><b>2e catégorie :</b> retour en France avec permis de détention, muselière et laisse.</div>`;
+  return "";
+}
+
+/* ---------- Carte ---------- */
+const svg = d3.select("#map");
+const gRoot = svg.append("g");
+const projection = d3.geoEqualEarth();
+const path = d3.geoPath(projection);
+let features = [], dots = [], zoom, W = 0, H = 0;
+
+function fillFor(c) {
+  if (!c) return col("land-empty");
+  if (c.iso2 === "FR") return col("accent");
+  const m = MODES.find(x => x.id === state.mode);
+  const v = m.value(c);
+  return (v != null && m.color(v)) || col("land-empty");
+}
+
+function setupMap(topo) {
+  const all = topojson.feature(topo, topo.objects.countries).features.filter(f => f.id !== "010");
+  const byNum = {};
+  COUNTRIES.forEach(c => { if (c.num) byNum[c.num] = c; });
+  byNum["250"] = { iso2: "FR", nom: "France", num: "250" };
+  all.forEach(f => {
+    const name = f.properties.name;
+    f.country = (f.id && byNum[f.id]) || (DATA.sans_id[name] && BY_ISO[DATA.sans_id[name]]) || null;
+    f.terr = !f.country && f.id && DATA.territoires[f.id] ? DATA.territoires[f.id] : null;
+    if (!f.country && !f.terr) f.terr = { nom: name === "N. Cyprus" ? "Chypre du Nord (non reconnue)" : name, parent: name === "N. Cyprus" ? "CY" : null };
+  });
+  features = all;
+  gRoot.append("path").datum({ type: "Sphere" }).attr("class", "sphere");
+  gRoot.append("path").datum(d3.geoGraticule10()).attr("class", "graticule");
+  gRoot.append("g").attr("class", "lands").selectAll("path").data(features).join("path")
+    .attr("class", f => "land" + (f.country ? "" : " terr"))
+    .on("mousemove", onHover).on("mouseleave", hideTip)
+    .on("click", (ev, f) => { if (f.country) select(f.country.iso2, { noZoom: f.country.iso2 === "FR" }); else if (f.terr) showTerritory(f.terr); });
+  gRoot.append("g").attr("class", "dots");
+  gRoot.append("g").attr("class", "trip");
+  svg.append("defs").html('<symbol id="pawsym" viewBox="0 0 64 64"><ellipse cx="16" cy="26" rx="6" ry="8"/><ellipse cx="26" cy="16" rx="6" ry="8"/><ellipse cx="38" cy="16" rx="6" ry="8"/><ellipse cx="48" cy="26" rx="6" ry="8"/><ellipse cx="32" cy="44" rx="14" ry="12"/></symbol>');
+  zoom = d3.zoom().scaleExtent([1, 14]).on("zoom", ev => {
+    gRoot.attr("transform", ev.transform);
+    gRoot.selectAll(".dot").attr("r", 4.2 / Math.pow(ev.transform.k, 0.75));
+    scaleTrip(ev.transform.k);
+  });
+  svg.call(zoom).on("dblclick.zoom", null);
+  resize();
+  new ResizeObserver(resize).observe($("#stage"));
+}
+
+function resize() {
+  const box = $("#stage").getBoundingClientRect();
+  if (!box.width || !box.height) return;
+  W = box.width; H = box.height;
+  svg.attr("viewBox", `0 0 ${W} ${H}`);
+  projection.fitExtent([[8, 8], [W - 8, H - 8]], { type: "Sphere" });
+  gRoot.selectAll(".sphere, .graticule").attr("d", path);
+  gRoot.selectAll(".land").attr("d", path);
+  // Petits pays : un point cliquable en plus du contour.
+  const small = new Map();
+  features.forEach(f => { if (f.country && path.area(f) < 14) small.set(f.country.iso2, { c: f.country, xy: path.centroid(f) }); });
+  COUNTRIES.forEach(c => { if (!c.sur_carte && c.iso2 === "TV") small.set("TV", { c, xy: projection([179.2, -8.5]) }); });
+  dots = [...small.values()].filter(d => d.xy && isFinite(d.xy[0]));
+  const t = d3.zoomTransform(svg.node());
+  gRoot.select(".dots").selectAll("circle").data(dots, d => d.c.iso2).join("circle")
+    .attr("class", "dot").attr("cx", d => d.xy[0]).attr("cy", d => d.xy[1]).attr("r", 4.2 / Math.pow(t.k, 0.75))
+    .on("mousemove", (ev, d) => onHover(ev, { country: d.c })).on("mouseleave", hideTip)
+    .on("click", (ev, d) => select(d.c.iso2));
+  zoom.extent([[0, 0], [W, H]]).translateExtent([[-W * 0.1, -H * 0.1], [W * 1.1, H * 1.1]]);
+  paint();
+  drawTrip(state.sel, false);
+}
+
+/* Trajet en pattes depuis Paris jusqu'au pays choisi */
+const PARIS = [2.35, 48.86];
+function mainCentroid(f) {
+  const g = f.geometry;
+  if (g.type !== "MultiPolygon") return d3.geoCentroid(f);
+  let best = null, area = -1;
+  g.coordinates.forEach(c => { const poly = { type: "Polygon", coordinates: c }; const a = d3.geoArea(poly); if (a > area) { area = a; best = poly; } });
+  return d3.geoCentroid(best);
+}
+const shrink = k => Math.pow(k, 0.75);
+function pawTransform(d, k) { return `translate(${d.x},${d.y}) rotate(${d.a}) scale(${1 / shrink(k)})`; }
+function scaleTrip(k) {
+  gRoot.selectAll(".trip use").attr("transform", d => pawTransform(d, k));
+  gRoot.selectAll(".trip circle").attr("r", 6 / shrink(k));
+}
+function drawTrip(iso, animate = true) {
+  const layer = gRoot.select(".trip");
+  if (layer.empty()) return;
+  layer.selectAll("*").remove();
+  if (!iso || iso === "FR") return;
+  const f = features.find(x => x.country && x.country.iso2 === iso);
+  const dest = f ? mainCentroid(f) : iso === "TV" ? [179.2, -8.5] : null;
+  if (!dest) return;
+  const interp = d3.geoInterpolate(PARIS, dest), pts = [];
+  for (let i = 0; i <= 240; i++) { const p = projection(interp(i / 240)); if (p) pts.push(p); }
+  const paws = [];
+  let acc = 0, side = 1;
+  for (let i = 1; i < pts.length; i++) {
+    const [x0, y0] = pts[i - 1], [x1, y1] = pts[i], seg = Math.hypot(x1 - x0, y1 - y0);
+    if (!seg || seg > W / 3) { acc = 0; continue; }
+    acc += seg;
+    if (acc >= 15 && i < pts.length - 2) {
+      acc = 0;
+      const nx = -(y1 - y0) / seg, ny = (x1 - x0) / seg;
+      paws.push({ x: x1 + nx * 3 * side, y: y1 + ny * 3 * side, a: Math.atan2(y1 - y0, x1 - x0) * 180 / Math.PI + 90 });
+      side = -side;
+    }
+  }
+  const k = d3.zoomTransform(svg.node()).k, reduce = !animate || matchMedia("(prefers-reduced-motion: reduce)").matches;
+  layer.selectAll("use").data(paws).join("use").attr("href", "#pawsym").attr("width", 9).attr("height", 9).attr("x", -4.5).attr("y", -4.5)
+    .attr("transform", d => pawTransform(d, k)).attr("class", reduce ? "" : "walk").style("animation-delay", (d, i) => `${i * 28}ms`);
+  const end = projection(dest);
+  if (end) layer.append("circle").attr("cx", end[0]).attr("cy", end[1]).attr("r", 6 / shrink(k));
+}
+
+function paint() {
+  gRoot.selectAll(".land").style("fill", f => f.country ? fillFor(f.country) : col("land-empty"))
+    .classed("sel", f => f.country && f.country.iso2 === state.sel);
+  gRoot.selectAll(".dot").style("fill", d => fillFor(d.c)).classed("sel", d => d.c.iso2 === state.sel);
+  renderLegend();
+}
+
+function modeText(c) {
+  const m = MODES.find(x => x.id === state.mode);
+  const v = m.value(c);
+  if (v == null) return "Pas de données";
+  if (m.id === "chien") return VERDICTS[v].label;
+  const leg = m.legend();
+  if (m.id === "fisc") return leg[Math.round(v) - 1][1];
+  if (m.id === "accueil") return leg[5 - Math.round(v)][1];
+  if (m.id === "cout") return `Indice ${v}`;
+  const map = { en_vigueur: "Convention en vigueur", speciale: "Cas particulier", suspendue: "Convention suspendue", aucune: "Aucune convention",
+    ue: "UE / passeport européen", a: "Pays listé (a)", b: "Pays listé (b)", non: "Non listé : titrage",
+    libre: "Libre circulation", facile: "Visa accessible", moyen: "Sponsor / investissement", difficile: "Difficile" };
+  return map[v] || v;
+}
+
+function onHover(ev, f) {
+  const tip = $("#tip"), box = $("#stage").getBoundingClientRect();
+  let html;
+  if (f.country) html = f.country.iso2 === "FR" ? "<b>France</b> · point de départ" : `<b>${esc(f.country.nom)}</b> · ${esc(modeText(f.country))}`;
+  else if (f.terr) html = `<b>${esc(f.terr.nom)}</b>`;
+  else return hideTip();
+  tip.innerHTML = html; tip.hidden = false;
+  tip.style.left = Math.min(Math.max(ev.clientX - box.left, 120), box.width - 120) + "px";
+  tip.style.top = (ev.clientY - box.top) + "px";
+}
+function hideTip() { $("#tip").hidden = true; }
+
+function renderLegend() {
+  const m = MODES.find(x => x.id === state.mode);
+  $("#legend").innerHTML = `<h4>${esc(m.title)}</h4><ul>` +
+    m.legend().map(([c, l]) => `<li><span class="paw" style="color:${c}"></span>${esc(l)}</li>`).join("") +
+    `<li><span class="paw" style="color:var(--land-empty)"></span>Non publié</li></ul>${m.note ? `<p class="note">${esc(m.note)}</p>` : ""}`;
+}
+
+function zoomToCountry(iso) {
+  const f = features.find(x => x.country && x.country.iso2 === iso);
+  if (!f || state.view !== "map") return;
+  const [[x0, y0], [x1, y1]] = path.bounds(f);
+  const w = x1 - x0, h = y1 - y0;
+  if (w > W * 0.5 || h > H * 0.5) return; // Russie, Canada… : on garde la vue.
+  const k = Math.min(8, 0.4 / Math.max(w / W, h / H));
+  const t = d3.zoomIdentity.translate(W / 2, H / 2).scale(Math.max(1, k)).translate(-(x0 + x1) / 2, -(y0 + y1) / 2);
+  svg.transition().duration(matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 650).call(zoom.transform, t);
+}
+
+/* ---------- Tableau ---------- */
+const COLS = [
+  { key: "nom", label: "Pays", get: c => c.nom },
+  { key: "chien", label: "Mon chien", get: c => c.verdict ? ["ok", "faisable", "difficile", "tres_difficile", "interdit"].indexOf(c.verdict.lvl) : 9,
+    show: c => c.verdict ? `<span class="paw" style="vertical-align:-2px;margin-right:6px;color:${col(VERDICTS[c.verdict.lvl].c)}"></span>${esc(VERDICTS[c.verdict.lvl].label)}` : "—" },
+  { key: "attente", label: "Délai chien (j)", num: 1, get: c => c.fiche && c.fiche.chien && c.fiche.chien.import ? c.fiche.chien.import.attente_jours : null },
+  { key: "quar", label: "Quarantaine (j)", num: 1, get: c => c.fiche && c.fiche.chien && c.fiche.chien.import && c.fiche.chien.import.quarantaine ? c.fiche.chien.import.quarantaine.jours : null },
+  { key: "retour", label: "Retour chien", get: c => c.fiche && c.fiche.chien ? (c.fiche.chien.liste_ue ? "Sans titrage" : "Titrage") : null },
+  { key: "fisc", label: "Pression fiscale", num: 1, get: c => c.fiche && c.fiche.fiscalite ? c.fiche.fiscalite.pression : null, show: c => c.fiche && c.fiche.fiscalite ? `${c.fiche.fiscalite.pression}/5` : "—" },
+  { key: "irmax", label: "IR max (%)", num: 1, get: c => c.fiche && c.fiche.fiscalite ? c.fiche.fiscalite.ir_taux_max : null },
+  { key: "is", label: "IS (%)", num: 1, get: c => c.fiche && c.fiche.fiscalite ? c.fiche.fiscalite.is_taux : null },
+  { key: "conv", label: "Convention FR", get: c => c.fiche && c.fiche.fiscalite && c.fiche.fiscalite.convention_fr ? ({ en_vigueur: "Oui", speciale: "Particulière", suspendue: "Suspendue", aucune: "Non" })[c.fiche.fiscalite.convention_fr.statut] : null },
+  { key: "visa", label: "Séjour", get: c => c.fiche && c.fiche.visa ? ({ libre: "Libre", facile: "Accessible", moyen: "Sponsor", difficile: "Difficile" })[c.fiche.visa.statut] : null },
+  { key: "cout", label: "Coût vie", num: 1, get: c => c.fiche && c.fiche.cout_vie ? c.fiche.cout_vie.indice : null },
+];
+function renderTable() {
+  const s = state.sort, colDef = COLS.find(x => x.key === s.key);
+  const rows = COUNTRIES.slice().sort((a, b) => {
+    const va = colDef.get(a), vb = colDef.get(b);
+    if (va == null && vb == null) return a.nom.localeCompare(b.nom, "fr");
+    if (va == null) return 1; if (vb == null) return -1;
+    return (typeof va === "number" ? va - vb : String(va).localeCompare(String(vb), "fr")) * s.dir;
+  });
+  $("#table-wrap").innerHTML = `<table><thead><tr>${COLS.map(c => `<th data-k="${c.key}" ${c.key === s.key ? `aria-sort="${s.dir > 0 ? "ascending" : "descending"}"` : ""}>${esc(c.label)}</th>`).join("")}</tr></thead><tbody>` +
+    rows.map(r => `<tr data-iso="${r.iso2}" class="${r.iso2 === state.sel ? "sel" : ""}">${COLS.map(c => {
+      const v = c.show ? c.show(r) : esc(c.get(r) == null ? "—" : c.get(r));
+      return `<td class="${c.num ? "num" : ""}">${v}</td>`;
+    }).join("")}</tr>`).join("") + "</tbody></table>";
+}
+$("#table-wrap").addEventListener("click", e => {
+  const th = e.target.closest("th");
+  if (th) { const k = th.dataset.k; state.sort = { key: k, dir: state.sort.key === k ? -state.sort.dir : 1 }; renderTable(); return; }
+  const tr = e.target.closest("tr[data-iso]");
+  if (tr) select(tr.dataset.iso, { noZoom: true });
+});
+
+/* ---------- Panneau ---------- */
+function blocks(items) {
+  return items.filter(([, v]) => has(v)).map(([t, v]) => `<div class="block"><h3>${esc(t)}</h3><p>${esc(v)}</p></div>`).join("");
+}
+function facts(items) {
+  const rows = items.filter(([, v]) => has(v));
+  return rows.length ? `<dl class="facts">${rows.map(([t, v]) => `<dt>${esc(t)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>` : "";
+}
+const pct = v => v == null ? "—" : `${String(v).replace(".", ",")} %`;
+const CONV_TXT = { en_vigueur: ["Convention FR en vigueur", "good"], speciale: ["Convention particulière", "mid"], suspendue: ["Convention suspendue", "bad"], aucune: ["Pas de convention FR", "bad"] };
+const VISA_TXT = { libre: ["Libre circulation", "good"], facile: ["Visa accessible", "good"], moyen: ["Visa avec sponsor", "mid"], difficile: ["Séjour difficile", "bad"] };
+const TERR_TXT = { mondiale: "Imposition mondiale", territoriale: "Imposition territoriale", remise: "Revenus étrangers imposés si rapatriés", aucun_ir: "Pas d'impôt sur le revenu" };
+const FIAB_TXT = { verifie: "Vérifié", partiel: "Partiellement vérifié", a_verifier: "À vérifier" };
+
+function renderIntro(counts, d) {
+  const tot = Object.values(counts).reduce((a, b) => a + b, 0);
+  const names = { ok: "faciles", faisable: "faisables", difficile: "démarches lourdes", tres_difficile: "très difficiles", interdit: "interdits" };
+  $("#panel-body").innerHTML = `
+    ${catAlert(d)}
+    <section class="card intro">
+      <h2>${tot ? `<em>${counts.ok + counts.faisable}</em> pays où ${esc(d.nom || "ton chien")} te suit sans gros obstacle` : "Chargement…"}</h2>
+      <div class="counts">${Object.keys(VERDICTS).map(k => `<div class="count" style="--c:${col(VERDICTS[k].c)}">${dogFace(k, 40)}<b>${counts[k]}</b><span>${names[k]}</span></div>`).join("")}</div>
+      <p>Clique un pays · <button class="link-btn" data-act="table">tableau comparatif</button> · <button class="link-btn" data-act="france">règles France</button></p>
+    </section>
+    <section class="card">
+      <h3 class="mini-title">En avion</h3>
+      <ul class="pawlist">${transportNote(d).map(t => `<li>${esc(t)}</li>`).join("")}</ul>
+    </section>
+    <p class="meta">Données d'octobre 2026, à revérifier avant le départ.</p>`;
+}
+
+function renderFrance() {
+  const fr = DATA.france;
+  $("#panel-body").innerHTML = `<section class="card">
+    <div class="fiche-head"><div class="row1"><h2>France</h2><button class="close" data-act="close" aria-label="Fermer la fiche">✕</button></div>
+    <div class="badges"><span class="badge">Point de départ</span><span class="badge">Mise à jour ${esc(fr.maj)}</span></div>
+    <p class="resume">${esc(fr.resume)}</p></div>
+    <div class="tabpanel">${fr.sections.map(s => `<div class="block"><h3>${esc(s.titre)}</h3><ul style="margin:4px 0 0;padding-left:18px">${s.points.map(p => `<li style="margin-bottom:5px">${esc(p)}</li>`).join("")}</ul></div>`).join("")}
+    ${sourcesHtml(fr)}</div></section>`;
+}
+
+function sourcesHtml(f) {
+  const src = (f.sources || []).filter(s => s && /^https?:\/\//.test(s.u || ""));
+  return `<div class="sources block"><h3>Sources</h3>${src.length ? `<ul>${src.map(s => `<li><a href="${esc(s.u)}" target="_blank" rel="noopener noreferrer">${esc(s.t || s.u)}</a></li>`).join("")}</ul>` : `<p class="empty">Aucune source listée.</p>`}
+    ${has(f.points_a_verifier) ? `<p style="margin-top:8px"><b>À vérifier :</b> ${esc(f.points_a_verifier)}</p>` : ""}</div>`;
+}
+
+function verdictBox(c, d) {
+  const v = c.verdict;
+  if (!v) return "";
+  const cls = v.lvl === "interdit" || v.lvl === "tres_difficile" ? "danger" : v.lvl === "ok" ? "ok" : "warn";
+  const items = v.reasons.concat(v.warns);
+  const ret = d.cat === 1 ? "Retour en France : interdit (1re catégorie)." :
+    c.fiche.chien.liste_ue ? "Retour en France : sans titrage (pays listé)." :
+    d.titrage ? "Retour en France : ton titrage suffit si les rappels sont à jour." :
+    "Retour en France : titrage + 3 mois d'attente. Fais-le avant de partir.";
+  return `<div class="alert ${cls}"><ul>${items.map(t => `<li>${esc(t)}</li>`).join("")}<li>${esc(ret)}</li></ul></div>`;
+}
+
+function renderCountry(c) {
+  const f = c.fiche, d = dogInfo();
+  if (!f) {
+    $("#panel-body").innerHTML = `<section class="card"><div class="fiche-head"><div class="row1"><h2>${esc(c.nom)}</h2><button class="close" data-act="close" aria-label="Fermer la fiche">✕</button></div>
+      <p class="empty">Fiche pas encore disponible.</p></div></section>`;
+    return;
+  }
+  const fi = f.fiscalite || {}, ch = f.chien || {}, imp = ch.import || {}, races = ch.races || {}, conv = fi.convention_fr || {};
+  const badges = [];
+  if (CONV_TXT[conv.statut]) badges.push(`<span class="badge ${CONV_TXT[conv.statut][1]}">${CONV_TXT[conv.statut][0]}</span>`);
+  if (f.visa && VISA_TXT[f.visa.statut]) badges.push(`<span class="badge ${VISA_TXT[f.visa.statut][1]}">${VISA_TXT[f.visa.statut][0]}</span>`);
+  const mood = c.verdict ? c.verdict.lvl : "faisable";
+
+  const tabs = [["synthese", "Synthèse"], ["fiscalite", "Fiscalité"], ["chien", "Chien"], ["vie", "Visa & vie"], ["retour", "Retour"]];
+  if (!tabs.find(t => t[0] === state.tab)) state.tab = "synthese";
+  let body = "";
+  if (state.tab === "synthese") {
+    body = `${catAlert(d)}${verdictBox(c, d)}
+      <dl class="kv">
+        <div>${icon("cal")}<dt>Délai chien</dt><dd>${imp.attente_jours != null ? `${imp.attente_jours} j` : "—"}</dd></div>
+        <div>${icon("niche")}<dt>Quarantaine</dt><dd>${imp.quarantaine && imp.quarantaine.jours ? `${imp.quarantaine.jours} j` : imp.quarantaine ? "Aucune" : "—"}</dd></div>
+        <div>${icon("ir")}<dt>Impôt revenu</dt><dd>${fi.ir_taux_min == null && fi.ir_taux_max == null ? "—" : fi.ir_taux_max === 0 ? "0 %" : `${String(fi.ir_taux_min ?? "?").replace(".", ",")}–${pct(fi.ir_taux_max)}`}</dd></div>
+        <div>${icon("is")}<dt>Sociétés</dt><dd>${pct(fi.is_taux)}</dd></div>
+        <div>${icon("gauge")}<dt>Pression</dt><dd>${fi.pression ? `${fi.pression}/5` : "—"}</dd></div>
+        <div>${icon("cart")}<dt>Coût vie</dt><dd>${f.cout_vie && f.cout_vie.indice != null ? f.cout_vie.indice : "—"}<small>Paris 100</small></dd></div>
+      </dl>`;
+  } else if (state.tab === "fiscalite") {
+    body = `<dl class="kv">
+        <div><dt>IR min / max</dt><dd>${pct(fi.ir_taux_min)} / ${pct(fi.ir_taux_max)}</dd></div>
+        <div><dt>IS</dt><dd>${pct(fi.is_taux)}</dd></div>
+        <div><dt>Territorialité</dt><dd style="font-size:15px">${esc(TERR_TXT[fi.territorialite] || "—")}</dd></div>
+      </dl>
+      ${blocks([["Barème", fi.ir_bareme], ["Résidence fiscale", fi.residence_fiscale], ["Salarié en contrat local", fi.salarie], ["Freelance / entrepreneur", fi.freelance],
+        ["Société", fi.is_resume], ["Cotisations sociales", fi.cotisations], ["Régimes spéciaux", fi.regimes_speciaux],
+        ["Convention avec la France", [conv.annee ? `Signée en ${conv.annee}.` : "", conv.notes].filter(has).join(" ") || (CONV_TXT[conv.statut] || [""])[0]],
+        ["Revenus restés en France", fi.revenus_fr]])}
+      <p class="meta"><button class="link-btn" data-act="france">Règles côté France</button></p>`;
+  } else if (state.tab === "chien") {
+    const mine = d.id;
+    const raceTag = (id, ban) => `<span class="${ban ? "ban" : ""}${id === mine || (id === "tous_molosses" && MOLOSSES.has(mine)) ? " mine" : ""}">${esc(RACE_LABEL[id] || id)}</span>`;
+    body = `${catAlert(d)}${verdictBox(c, d)}
+      ${imp.etapes && imp.etapes.length ? `<div class="block"><h3>1 · Emmener ton chien</h3><ol class="steps">${imp.etapes.map(e => `<li>${esc(e)}</li>`).join("")}</ol></div>` : blocks([["1 · Emmener ton chien", imp.resume]])}
+      <div class="block"><h3>2 · Le garder sur place</h3>${ch.sur_place && ch.sur_place.length ? `<ol class="steps">${ch.sur_place.map(e => `<li>${esc(e)}</li>`).join("")}</ol>` : `<p class="empty">Étapes en cours de recherche.</p>`}
+        ${has(ch.rappel_rage) ? `<p class="meta" style="margin-top:4px">Rappel rage exigé : ${esc(ch.rappel_rage)}</p>` : ""}</div>
+      <p class="meta">3 · Revenir en France : onglet <button class="link-btn" data-tab="retour">Retour</button></p>
+      <div class="block"><h3>Exigences à l'entrée</h3>${facts([
+        ["Puce", imp.puce], ["Rage", imp.rage], ["Titrage", imp.titrage ? `${imp.titrage.requis ? "Oui" : "Non"}${has(imp.titrage.details) ? ". " + imp.titrage.details : ""}` : ""],
+        ["Permis d'import", imp.permis_import ? `${imp.permis_import.requis ? "Oui" : "Non"}${has(imp.permis_import.details) ? ". " + imp.permis_import.details : ""}` : ""],
+        ["Certificat", imp.certificat], ["Quarantaine", imp.quarantaine ? `${imp.quarantaine.jours || 0} j${has(imp.quarantaine.details) ? ". " + imp.quarantaine.details : ""}` : ""],
+        ["Autres", imp.autres], ["Âge minimum", ch.age_minimum], ["Nombre max", ch.limite_nombre ? `${ch.limite_nombre} chien(s)` : ""], ["Coût estimé", imp.cout_estime]])}</div>
+      <div class="block"><h3>Races</h3>
+        ${races.interdites && races.interdites.length ? `<p style="margin-top:4px"><b>Interdites</b></p><div class="races">${races.interdites.map(id => raceTag(id, true)).join("")}</div>` : `<p>Aucune race interdite connue au niveau national.</p>`}
+        ${races.restreintes && races.restreintes.length ? `<p style="margin-top:8px"><b>Sous conditions</b></p><ul style="margin:4px 0 0;padding-left:18px">${races.restreintes.map(r => `<li><b>${esc(RACE_LABEL[r.id] || r.id)}</b>${id_mine(r.id, mine) ? " (ton chien)" : ""} : ${esc(r.conditions)}</li>`).join("")}</ul>` : ""}
+        ${has(races.notes) ? `<p style="margin-top:8px">${esc(races.notes)}</p>` : ""}</div>
+      ${blocks([["Transport vers ce pays", ch.transport], ["Ton chien en avion", transportNote(d).join(" ")], ["Vie sur place", ch.vie_sur_place]])}`;
+  } else if (state.tab === "vie") {
+    const v = f.visa || {}, s = f.sante || {}, cv = f.cout_vie || {};
+    body = `<dl class="kv">
+        <div><dt>Coût de la vie</dt><dd>${cv.indice != null ? cv.indice : "—"}<small>Paris = 100</small></dd></div>
+        <div><dt>Santé</dt><dd>${s.niveau ? `${s.niveau}/5` : "—"}</dd></div>
+        <div><dt>Sécu</dt><dd style="font-size:15px">${esc(({ ue: "Coordination UE", convention: "Convention bilatérale", aucune: "Aucune convention" })[s.secu_coordination] || "—")}</dd></div>
+      </dl>
+      ${blocks([["Visa et droit de séjour", v.resume], ["Travailler", v.travail], ["Visa nomade / rentier", v.nomade], ["Coût de la vie", cv.resume], ["Système de santé", s.resume], ["Assurance", s.assurance]])}`;
+  } else {
+    const n = d.sejour;
+    body = `${catAlert(d)}
+      <div class="sejour"><label for="sejour-inline">Retour après</label>
+        <input id="sejour-inline" type="number" min="1" max="240" value="${n}" inputmode="numeric"><span>mois sur place</span></div>
+      <div class="block"><h3>Ton chien</h3><ol class="steps">${retourChien(c, d, n).map(e => `<li>${esc(e)}</li>`).join("")}</ol></div>
+      <div class="block"><h3>Toi</h3><ol class="steps">${retourToi(c, n).map(e => `<li>${esc(e)}</li>`).join("")}</ol></div>
+      <p class="meta"><button class="link-btn" data-act="france">Règles côté France</button></p>`;
+  }
+
+  $("#panel-body").innerHTML = `<section class="card">
+    <div class="fiche-head">
+      <div class="row1">
+        <div class="sticker" style="--c:${col(VERDICTS[mood].c)}">${dogFace(mood, 64)}</div>
+        <div class="title">
+          <h2>${esc(c.nom)}</h2>
+          <p class="verdict-label" style="--c:${col(VERDICTS[mood].c)}">${esc(c.verdict ? VERDICTS[mood].label : "Pas de règle chien")}</p>
+        </div>
+        <button class="close" data-act="close" aria-label="Fermer la fiche">✕</button>
+      </div>
+      <div class="badges">${badges.join("")}<span class="badge quiet">${esc(FIAB_TXT[f.fiabilite] || "—")}</span></div>
+      ${has(f.resume) ? `<p class="resume">${esc(f.resume)}</p>` : ""}
+    </div>
+    <div class="tabs" role="tablist">${tabs.map(([id, l]) => `<button role="tab" data-tab="${id}" aria-selected="${id === state.tab}">${l}</button>`).join("")}</div>
+    <div class="tabpanel" role="tabpanel">${body}${sourcesHtml(f)}</div>
+  </section>`;
+}
+function id_mine(id, mine) { return id === mine || (id === "tous_molosses" && MOLOSSES.has(mine)); }
+
+function showTerritory(t) {
+  const parent = t.parent && BY_ISO[t.parent];
+  $("#panel-body").innerHTML = `<section class="card territoire"><div class="fiche-head"><div class="row1"><h2>${esc(t.nom)}</h2><button class="close" data-act="close" aria-label="Fermer">✕</button></div>
+    <p>${parent || t.parent === "FR" ? `Territoire rattaché à ${esc(t.parent === "FR" ? "la France" : parent.nom)} : ses règles fiscales et d'import d'animaux peuvent différer.` : "Pas de fiche pour ce territoire."}</p>
+    ${parent ? `<p><button class="link-btn" data-iso="${parent.iso2}">Ouvrir la fiche ${esc(parent.nom)}</button></p>` : t.parent === "FR" ? `<p><button class="link-btn" data-act="france">Règles françaises</button></p>` : ""}</div></section>`;
+}
+
+function select(iso, opts = {}) {
+  state.sel = iso;
+  if (!$("#dog-form").hidden && !opts.keepDog) setDogOpen(false);
+  if (iso === "FR") renderFrance();
+  else if (BY_ISO[iso]) renderCountry(BY_ISO[iso]);
+  paint();
+  drawTrip(iso);
+  if (state.view === "table") renderTable();
+  if (!opts.noZoom) zoomToCountry(iso);
+  try { history.replaceState(null, "", "#" + iso); } catch (e) { /* hors navigateur */ }
+  if (matchMedia("(max-width: 960px)").matches && !opts.noScroll) $("#panel-body").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function closeFiche() {
+  state.sel = null;
+  drawTrip(null);
+  try { history.replaceState(null, "", location.pathname + location.search); } catch (e) { /* hors navigateur */ }
+  refresh();
+}
+
+$("#panel").addEventListener("change", e => {
+  if (e.target.id !== "sejour-inline") return;
+  const v = parseInt(e.target.value, 10);
+  if (v > 0) { $("#dog-sejour").value = v; readDog(); refresh(); }
+});
+$("#panel").addEventListener("click", e => {
+  const t = e.target.closest("[data-act],[data-tab],[data-iso]");
+  if (!t) return;
+  if (t.dataset.tab) { state.tab = t.dataset.tab; renderCountry(BY_ISO[state.sel]); return; }
+  if (t.dataset.iso) { select(t.dataset.iso); return; }
+  const a = t.dataset.act;
+  if (a === "close") closeFiche();
+  else if (a === "france") select("FR", { noZoom: true });
+  else if (a === "table") setView("table");
+});
+
+/* ---------- Contrôles ---------- */
+function renderModes() {
+  $("#modes").innerHTML = MODES.map(m => `<button class="mode" data-mode="${m.id}" aria-pressed="${m.id === state.mode}"><span class="paw" aria-hidden="true"></span>${esc(m.label)}</button>`).join("");
+}
+$("#modes").addEventListener("click", e => {
+  const b = e.target.closest("[data-mode]");
+  if (!b) return;
+  state.mode = b.dataset.mode; store.set("atlas-mode", state.mode);
+  renderModes(); paint();
+});
+function setView(v) {
+  state.view = v;
+  $("#view-map").setAttribute("aria-pressed", v === "map"); $("#view-table").setAttribute("aria-pressed", v === "table");
+  $("#table-wrap").hidden = v !== "table";
+  ["#legend", ".zoom"].forEach(s => { $(s).hidden = v === "table"; });
+  if (v === "table") renderTable();
+}
+$("#view-map").addEventListener("click", () => setView("map"));
+$("#view-table").addEventListener("click", () => setView("table"));
+$("#zoom-in").addEventListener("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1.6));
+$("#zoom-out").addEventListener("click", () => svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.6));
+$("#zoom-reset").addEventListener("click", () => svg.transition().duration(350).call(zoom.transform, d3.zoomIdentity));
+$("#search").addEventListener("change", e => {
+  const t = e.target.value.trim().toLowerCase();
+  const c = COUNTRIES.find(x => x.nom.toLowerCase() === t) || COUNTRIES.find(x => x.nom.toLowerCase().startsWith(t));
+  if (t === "france") select("FR", { noZoom: true });
+  else if (c) select(c.iso2);
+  e.target.value = "";
+});
+$("#dog-form").addEventListener("input", () => { readDog(); refresh(); });
+$("#dog-form").addEventListener("submit", e => e.preventDefault());
+function setDogOpen(open) {
+  $("#dog-form").hidden = !open;
+  $("#dog-card").classList.toggle("folded", !open);
+  $("#dog-fold").textContent = open ? "OK" : "Modifier";
+  $("#dog-fold").setAttribute("aria-expanded", String(open));
+}
+$("#dog-fold").addEventListener("click", e => {
+  e.stopPropagation();
+  const open = $("#dog-form").hidden;
+  setDogOpen(open);
+  store.set("atlas-dog-fold", !open);
+});
+
+function refresh() {
+  const d = computeVerdicts();
+  const counts = renderDogSummary(d);
+  if (!state.sel) renderIntro(counts, d);
+  else if (state.sel === "FR") renderFrance();
+  else if (BY_ISO[state.sel]) renderCountry(BY_ISO[state.sel]);
+  paint();
+  if (state.view === "table") renderTable();
+}
+
+/* ---------- Démarrage ---------- */
+$("#breed-list").innerHTML = BREEDS.map(b => `<option value="${esc(b[0])}"></option>`).join("");
+fillDog();
+setDogOpen(!store.get("atlas-dog-fold") && !store.get("atlas-dog"));
+const savedMode = store.get("atlas-mode");
+if (MODES.find(m => m.id === savedMode)) state.mode = savedMode;
+renderModes();
+
+Promise.all([fetch("world-50m.json").then(r => r.json()), fetch("pays.json").then(r => r.json())]).then(([topo, data]) => {
+  DATA = data;
+  COUNTRIES = data.pays.slice().sort((a, b) => a.nom.localeCompare(b.nom, "fr"));
+  COUNTRIES.forEach(c => { BY_ISO[c.iso2] = c; });
+  $("#country-list").innerHTML = ["France"].concat(COUNTRIES.map(c => c.nom)).map(n => `<option value="${esc(n)}"></option>`).join("");
+  computeVerdicts();
+  setupMap(topo);
+  $("#loading").hidden = true;
+  const h = (location.hash || "").slice(1).toUpperCase();
+  if (h === "FR" || BY_ISO[h]) { state.sel = h; setDogOpen(false); refresh(); drawTrip(h); zoomToCountry(h); } else refresh();
+  window.addEventListener("hashchange", () => {
+    const k = (location.hash || "").slice(1).toUpperCase();
+    if (k !== state.sel && (k === "FR" || BY_ISO[k])) select(k, { noZoom: k === "FR" });
+  });
+}).catch(err => {
+  $("#loading").textContent = "Impossible de charger les données de la carte. Recharge la page.";
+  console.error(err);
+});
+})();
+</script>
+
+</body>
+</html>

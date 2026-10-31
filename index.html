@@ -432,6 +432,7 @@ td.num { font-variant-numeric: tabular-nums; text-align: right; font-weight: 700
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-simplify@3.0.3/dist/topojson-simplify.min.js"></script>
 <script>
 (() => {
 "use strict";
@@ -738,6 +739,8 @@ function fillFor(c) {
 }
 
 function setupMap(topo) {
+  // Contours simplifiés : la carte reste fluide au zoom, même sur téléphone.
+  if (topojson.presimplify) { const pre = topojson.presimplify(topo); topo = topojson.simplify(pre, topojson.quantile(pre, 0.15)); }
   const all = topojson.feature(topo, topo.objects.countries).features.filter(f => f.id !== "010");
   const byNum = {};
   COUNTRIES.forEach(c => { if (c.num) byNum[c.num] = c; });
